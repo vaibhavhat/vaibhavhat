@@ -24,6 +24,21 @@ jobs:
   analyze:
     name: Analyze
     # Runner size impacts CodeQL analysis time. To learn more, please see:
+    runfile('C:/Users/vaibh/.spyder-py3/temp.py', wdir='C:/Users/vaibh/.spyder-py3')
+  File <unknown>:20
+    This page should redirect you to Jupyter Notebook. If it doesn't,
+                                                                  ^
+SyntaxError: unterminated string literal (detected at line 20)
+
+
+runfile('C:/Users/vaibh/.spyder-py3/temp.py', wdir='C:/Users/vaibh/.spyder-py3')
+  File <unknown>:20
+    This page should redirect you to Jupyter Notebook. If it doesn't,
+                                                                  ^
+SyntaxError: unterminated string literal (detected at line 20)
+
+
+
     #   - https://gh.io/recommended-hardware-resources-for-running-codeql
     #   - https://gh.io/supported-runners-and-hardware-resources
     #   - https://gh.io/using-larger-runners
