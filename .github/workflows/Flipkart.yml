@@ -35,8 +35,8 @@ public class Flipkart{
 				.sendKeys(username);
 		driver.findElement(
 				By.cssSelector(".fk-input.login-form-input.user-pwd"))
-				.sendKeys(password);
-		driver.findElement(By.cssSelector(".submit-btn.login-btn.btn")).click();
+    .sendKeys(password);
+   driver.findElement(By.cssSelector(".submit-btn.login-btn.btn")).click();
 	}
 
 	// Search For product
