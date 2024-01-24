@@ -10,6 +10,8 @@
 # supported CodeQL languages.
 #
 name: "CodeQL"
+{
+ code M + M5 -m18 
 
 on:
   push:
